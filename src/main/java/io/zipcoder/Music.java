@@ -7,13 +7,13 @@ import java.util.List;
 
 public class Music {
 
-    private String[] playList;
+    private String[] songs;
 
     List<String> playList1;
 
-    public Music(String[] playList) {
+    public Music(String[] songs) {
 
-        this.playList1 = Arrays.asList(playList);
+        this.playList1 = Arrays.asList(songs);
     }
 
     public Integer selection(Integer startIndex, String selection) {
