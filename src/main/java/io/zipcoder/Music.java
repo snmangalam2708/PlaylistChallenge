@@ -18,9 +18,7 @@ public class Music {
 
     public Integer selection(Integer startIndex, String selection) {
 
-        int c = 0;
-        int d = 0;
-        int e = 0;
+        int c = 0, d = 0, e = 0;
         int len = playList1.size();
 
         c = playList1.indexOf(selection) - startIndex;
